@@ -15,6 +15,7 @@
 , Name : Text
 , Services : List ./Service.dhall
 , ShutdownDelay : Optional Natural
+, Vault : Optional ./Vault.dhall
 , Templates : List ./Template.dhall
 , User : Text
 , Resources : ./Resources.dhall

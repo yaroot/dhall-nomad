@@ -2,6 +2,6 @@
 { CPU : Natural
 , MemoryMB : Natural
 , DiskMB : Optional Natural
-, Devices : Optional (List ./Device.dhall)
-, Networks : Optional (List ./Network.dhall)
+, Devices : List ./Device.dhall
+, Networks : List ./Network.dhall
 }

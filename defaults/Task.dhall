@@ -13,5 +13,6 @@
 , ShutdownDelay = None Natural
 , Templates = [] : List ../types/Template.dhall
 , User = ""
+, Vault = None ../types/Vault.dhall
 , Resources = ./Resources.dhall
 }

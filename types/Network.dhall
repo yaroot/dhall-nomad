@@ -4,6 +4,6 @@
 , IP : Optional Text
 , MBits : Natural
 , DNS : Optional ./DNSConfig.dhall
-, DynamicPorts : Optional (List ./DynamicPort.dhall)
-, ReservedPorts : Optional (List ./DynamicPort.dhall)
+, DynamicPorts : List ./Port.dhall
+, ReservedPorts : List ./Port.dhall
 }

@@ -3,7 +3,7 @@
 , AllAtOnce : Bool
 , Constraints : List ./Constraint.dhall
 , Datacenters : List Text
-, ID : Optional Text
+, ID : Text
 , Meta : List Text
 , Migrate : ./Migrate.dhall
 , Namespace : List Text
